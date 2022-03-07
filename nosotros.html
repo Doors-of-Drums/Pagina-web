@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doors of Drums</title>
     <!-- LIBRERIAS -->
+    <link rel="stylesheet" href="styles/normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -54,7 +54,7 @@
     </header>
 
     <section class="title">
-        <img src="src/img/matthijs-smit-bRG2C0FAQEY-unsplash.jpg" alt="drums">
+        <img class="back-image-game" src="src/img/matthijs-smit-bRG2C0FAQEY-unsplash.jpg" alt="drums">
         <h1>
             Doors of drums
         </h1>
@@ -70,11 +70,11 @@
                 venenatis. Curabitur
                 consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
             </p>
-            <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
+            <img class="person1-img" src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
         </div>
 
         <div class="person-2">
-            <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
+            <img class="person1-img" src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
             <h2>
                 Persona 2
             </h2>
@@ -94,11 +94,11 @@
                 venenatis. Curabitur
                 consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
             </p>
-            <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
+            <img class="person1-img" src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
         </div>
 
         <div class="person-4">
-            <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
+            <img class="person1-img" src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
             <h2>
                 Persona 4
             </h2>
@@ -109,14 +109,18 @@
             </p>
         </div>
     </main>
-
-    <footer>
-        <div class="foot-background">
-            <p>
-                Información general de la página
-            </p>
-        </div>
-    </footer>
+    
+    <div class="container footer-div">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2">Doors of drums</a></li>
+                <li class="nav-item"><a href="nosotros.html" class="nav-link px-2">Nosotros</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Estadísticas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">¡Vamos a jugar!</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+        </footer>
+    </div>
 </body>
 
 </html>

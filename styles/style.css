@@ -6,3 +6,28 @@
     --gray-primary: #8d8d8d;
 }
 
+body {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.back-image-game, .person1-img {
+    width: 200px;
+}
+
+/* Para el footer */
+.my-4 {
+    margin-top: 1px!important;
+    margin-bottom: 1px!important;
+}
+
+.footer-div {
+    background-color: #0B0706;
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+
+}
+
+.footer-div .nav-item a {
+    color: var(--primary);
+}
