@@ -64,12 +64,87 @@ body {
 
 .title-trailer .container h1 {
   text-align: center;
-  font-size: 78px;
+  font-size: 100px;
   font-weight: bolder;
   margin: 0;
 }
 
+/* Main */
+main {
+  margin: 0 25px 10px 25px;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+main p {
+  font-size: 18px;
+}
+
+main .pas-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.objectives {
+  column-count: 3;
+}
+
+.back-image-game,
+.person1-img {
+  width: 200px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.my-4 {
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+}
+
+.footer-div {
+  background-color: var(--secondary);
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  max-width: 1600px;
+}
+
+.footer-div .nav-item a {
+  color: var(--primary);
+}
+
+.py-3 {
+  padding: 3px 0 !important;
+}
+
+.pb-3 {
+  padding-bottom: 3px !important;
+}
+
+/* Media's queries */
+
+@media (max-width: 991px) {
+  .border-naranja {
+    border: 0;
+  }
+
+  #user-icon {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
+  /* Trailer y título */
   #background-video {
     display: none;
   }
@@ -87,31 +162,13 @@ body {
     color: white;
     /* CHECAR COLOR */
   }
-}
 
-.back-image-game,
-.person1-img {
-  width: 200px;
-}
+  /* Main */
+  main .pas-img {
+    width: 175px;
+  }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* Para el footer */
-.my-4 {
-  margin-top: 1px !important;
-  margin-bottom: 1px !important;
-}
-
-.footer-div {
-  background-color: var(--secondary);
-  opacity: 0.9;
-  margin: 0;
-  padding: 0;
-  max-width: 1600px;
-}
-
-.footer-div .nav-item a {
-  color: var(--primary);
+  .objectives {
+    column-count: 1;
+  }
 }
