@@ -5,97 +5,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Doors of Drums</title>
     <!-- LIBRERIAS -->
     <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
-        <div class="nav-background">
-            <nav class="header-menu">
-                <a href="index.html">Logo de Doors</a>
-                <a href="#">Nosotros</a>
-                <a href="#">Estadísticas</a>
-                <a href="#">¡Vamos a jugar!</a>
-                <div class="user-background">
-                    <a href="#">
-                        <span>
-                            Iniciar sesión
-                        </span>
-                        <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg"
-                            alt="icon of user">
-                    </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <!-- Logo (se tiene que cambiar)-->
+                    <img src="src/img/PAS.png" alt="" width="40" id="logo-pas" class="rounded-circle">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Estadísticas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">¡Vamos a jugar!</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link border-naranja" href="#">
+                                Iniciar sesión
+                                <img src="src/img/user_icon.svg" alt="icon of the user" height="30px"
+                                    class="rounded-circle" id="user-icon">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
     <section class="title">
-        <img src="src/img/matthijs-smit-bRG2C0FAQEY-unsplash.jpg" alt="drums">
-        <h1>
-            Doors of drums
-        </h1>
+        <div class="container">
+            <img id="background-game" src="src/img/batery.jpg" alt="drums">
+            <div class="text-above">
+                <h1>
+                    Doors of drums
+                </h1>
+            </div>
+        </div>
     </section>
 
-    <main>
+    <main class="nosotros-persons">
         <div class="person-1">
             <h2>
                 Persona 1
             </h2>
-            <p>
-                Praesent sollicitudin dictum purus, sit amet tempor neque molestie non. Phasellus semper vel sem in
-                venenatis. Curabitur
-                consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
-            </p>
-            <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
+            <div class="d-flex flex-row">
+                <p class="p-2">
+                    Praesent sollicitudin dictum purus, sit amet tempor neque molestie non. Phasellus semper vel sem in
+                    venenatis. Curabitur
+                    consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
+                </p>
+                <img class="p-2" src="src/img/persons/person_people_woman.png" alt="icon of a person">
+            </div>
         </div>
 
         <div class="person-2">
-            <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
             <h2>
                 Persona 2
             </h2>
-            <p>
-                Praesent sollicitudin dictum purus, sit amet tempor neque molestie non. Phasellus semper vel sem in
-                venenatis. Curabitur
-                consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
-            </p>
+            <div class="d-flex flex-row">
+                <img class="p-2" src="src/img/persons/person_user_man.png" alt="icon of a person">
+                <p class="p-2">
+                    Praesent sollicitudin dictum purus, sit amet tempor neque molestie non. Phasellus semper vel sem in
+                    venenatis. Curabitur
+                    consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
+                </p>
+            </div>
         </div>
 
         <div class="person-3">
             <h2>
                 Persona 3
             </h2>
-            <p>
-                Praesent sollicitudin dictum purus, sit amet tempor neque molestie non. Phasellus semper vel sem in
-                venenatis. Curabitur
-                consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
-            </p>
-            <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
+            <div class="d-flex flex-row">
+                <p class="p-2">
+                    Praesent sollicitudin dictum purus, sit amet tempor neque molestie non. Phasellus semper vel sem in
+                    venenatis. Curabitur
+                    consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
+                </p>
+                <img class="p-2" src="src/img/persons/person_user_man.png" alt="icon of a person">
+            </div>
         </div>
-        
+
         <div class="person-4">
-            <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg" alt="icon of a person">
             <h2>
                 Persona 4
             </h2>
-            <p>
-                Praesent sollicitudin dictum purus, sit amet tempor neque molestie non. Phasellus semper vel sem in
-                venenatis. Curabitur
-                consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
-            </p>
+            <div class="d-flex flex-row">
+                <img class="p-2" src="src/img/persons/person_user_man.png" alt="icon of a person">
+                <p class="p-2">
+                    Praesent sollicitudin dictum purus, sit amet tempor neque molestie non. Phasellus semper vel sem in
+                    venenatis. Curabitur
+                    consequat massa a nibh rutrum semper. Proin quis commodo orci. Nam ac varius ipsum.
+                </p>
+            </div>
         </div>
     </main>
 
-    <footer>
-        <div class="foot-background">
-            <p>
-                Información general de la página
-            </p>
-        </div>
-    </footer>
+    <div class="container footer-div">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2">Doors of drums</a></li>
+                <li class="nav-item"><a href="nosotros.html" class="nav-link px-2">Nosotros</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Estadísticas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">¡Vamos a jugar!</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
