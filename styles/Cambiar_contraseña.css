@@ -1,0 +1,40 @@
+section#LOGO{
+    text-align: left;
+    background-color: #eadbd4;
+}
+div#Flexi{
+    display:flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+img#Logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+section{
+    text-align: center;
+}
+h1#Titulo{
+    margin: 0 auto;
+    color: #dc6543;
+}
+section.sec_medias{
+    padding: 15px 0;
+    margin: 15px;
+}
+section.sec_medias h4.Mensajes{
+    color: #0B0706;
+    padding: 15px 0;
+    margin: 15px;
+}
+section.sec_medias button{
+    background-color: #dc6543;
+    border-style: none;
+    height: 100%;
+}
+section#Botones{
+    height: 65px;
+}
+input{
+    margin: 15px;
+}
