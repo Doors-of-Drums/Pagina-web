@@ -15,11 +15,11 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <!-- Logo (se tiene que cambiar)-->
-                    <img src="src/img/github-logo_icon-icons.com_73546.svg" alt="" width="30" height="24">
+                    <img src="src/img/PAS.png" alt="" width="40" id="logo-pas" class="rounded-circle">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,10 +39,10 @@
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link border-naranja" href="#">
                                 Iniciar sesión
-                                <img src="src/img/round-account-button-with-user-inside_icon-icons.com_72596.svg"
-                                    alt="icon of the user" height="30px">
+                                <img src="src/img/user_icon.svg"
+                                    alt="icon of the user" height="30px" class="rounded-circle" id="user-icon">
                             </a>
                         </li>
                     </ul>
@@ -51,11 +51,19 @@
         </nav>
     </header>
 
-    <section class="title">
-        <video src="src/videos/Listening to music by a window.mp4"></video>
-        <h1>
-            Doors of drums
-        </h1>
+    <section class="title-trailer">
+        <div class="container">
+            <video id="background-video" controls autoplay muted loop>
+                <source src="src/videos/Listening to music by a window.mp4" type="video/mp4">
+                Su navegador no soporta la etiqueta video.
+            </video>
+            <img id="background-image" src="src/img/matthijs-smit-bRG2C0FAQEY-unsplash.jpg" alt="drums">
+            <div class="text-above-trailer">
+                <h1>
+                    Doors of drums
+                </h1>
+            </div>
+        </div>
     </section>
 
     <main>
