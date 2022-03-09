@@ -32,11 +32,13 @@ body {
 }
 
 /* Trailer y título */
-.title-trailer .container, .title .container{
+.title-trailer .container,
+.title .container {
   position: relative;
 }
 
-#background-video, #background-game {
+#background-video,
+#background-game {
   position: relative;
   left: 0;
   right: 0;
@@ -103,8 +105,26 @@ main .pas-img {
 
 /* Personas */
 
-.nosotros-persons {
-    margin: 18px 130px;
+main {
+  margin: 18px 115px;
+}
+
+/* ¿Cómo se juega? */
+.como-jugar h1 {
+  margin: 20px 0;
+  font-size: 70px;
+}
+
+div.control-1 {
+  margin-left: 35px;
+}
+
+div.control-2 {
+  margin-right: 35px;
+}
+
+.como-jugar h2 {
+  text-align: left;
 }
 
 a:hover {
@@ -180,14 +200,14 @@ a:hover {
 
   /* Main nosotros */
   .d-flex {
-      display: flex!important;
+    display: flex !important;
   }
 
   .flex-row {
-      flex-direction: column!important;
+    flex-direction: column !important;
   }
 
   .nosotros-persons {
     margin: 18px 18px;
-}
+  }
 }
