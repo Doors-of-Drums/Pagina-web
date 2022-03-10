@@ -1,0 +1,27 @@
+section#cajageneralvideo section#cajaespecificavideo{
+    width: 90%;
+    margin: 40px auto;
+    background-color: red;
+    text-align: center;
+}
+
+section#Flexibox{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 150px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+section#Flexibox div#Texto2 button.Botones{
+    background-color: #dc6543;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    width:180px;
+    height: 60px;
+    margin: 55px 10px;
+    border-style: none;
+}
+
