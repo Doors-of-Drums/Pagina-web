@@ -1,3 +1,7 @@
+video{
+    height: 250px;
+    width: 250px;
+}
 section#cajageneralvideo section#cajaespecificavideo{
     width: 90%;
     margin: 40px auto;
