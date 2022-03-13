@@ -1,0 +1,14 @@
+.flex-container{
+    display: flex;
+    text-align: center;
+}
+.textoinput{
+    text-align: center;
+}
+
+.containerBox{
+    text-align: center;
+    margin-top: 0vh;
+    margin-left: 25%;
+}
+
