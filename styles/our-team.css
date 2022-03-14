@@ -1,0 +1,108 @@
+:root {
+  --primary: #dc6543;
+  --secondary: #0b0706;
+  --hightlight: #4bc3e0;
+  --gray-primary: #8d8d8d;
+}
+
+/* Trailer y título */
+.title .container {
+  position: relative;
+}
+
+#background-image {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  margin-top: 15px;
+  opacity: 0.8;
+  width: 100%;
+  filter: grayscale(90%);
+}
+
+.text-above {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-above h1 {
+  color: var(--primary);
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.person-1 h2,
+.person-3 h2 {
+  text-align: right;
+}
+
+.person-2 h2,
+.person-4 h2 {
+  text-align: left;
+}
+
+img.p-2 {
+  width: 20%;
+}
+
+@media (max-width: 991px) {
+  img.p-2 {
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  #background-image {
+    display: inline;
+    width: 100%;
+    filter: grayscale(90%);
+  }
+
+  .container h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0;
+    color: var(--primary);
+  }
+
+  main {
+    margin: 0 15px 10px 15px;
+  }
+
+  /* Main nosotros */
+  .d-flex {
+    display: flex !important;
+  }
+
+  .flex-row,
+  .flex-row-reverse {
+    flex-direction: column !important;
+  }
+
+  .nosotros-persons {
+    margin: 18px 18px;
+  }
+
+  .person-1 h2,
+  .person-2 h2,
+  .person-3 h2,
+  .person-4 h2 {
+    text-align: center;
+  }
+}

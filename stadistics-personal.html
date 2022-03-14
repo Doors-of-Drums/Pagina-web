@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Libraries -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="styles/stadistics-personal.css" type="text/css">
+    <title>Personal statistics</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="src/img/pas-photos/paswhitelogotext.png" alt="percussive arts society" width="60"
+                        id="logo-pas" class="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="our-team.html">Our team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stadistics-global.html">Our players</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-game.html">About the game</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link border-naranja" href="log-in.html">
+                                Log in
+                                <img src="src/img/icons/user_icon.svg" alt="icon of a person" height="30px"
+                                    class="rounded-circle" id="user-icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="user-info">
+            <div class="d-flex justify-content-between">
+                <div class="p-2">
+                    <img src="src/img/icons/user_icon.svg" alt="Icon of a person" id="user-icon-info">
+                </div>
+                <div class="p-2 user align-self-center">
+                    <h1>
+                        username
+                    </h1>
+                </div>
+                <div class="p-2 align-self-center">
+                    <button class="rounded-3">
+                        <span>Sign out</span>
+                    </button>
+                    <button class="rounded-3">
+                        <a href="edit-profile.html">
+                            <span>Edit profile</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="player-per-data">
+            <div class="d-flex justify-content-evenly">
+                <div class="p-2 data">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">
+                                    <span>
+                                        Top score
+                                    </span>
+                                </th>
+                                <td id="top-score-per">
+                                    500
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <span>
+                                        Total minutes played
+                                    </span>
+                                </th>
+                                <td id="total-minutes">
+                                    356
+                                    <span>minutes</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <span>
+                                        Average duration of the session
+                                    </span>
+                                </th>
+                                <td id="average-session">
+                                    60
+                                    <span>minutes</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <span>
+                                        Average of failure
+                                    </span>
+                                </th>
+                                <td id="average-failure">
+                                    3
+                                    <span>attempts</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <span>
+                                        Record min of time
+                                    </span>
+                                </th>
+                                <td id="record-less-time">
+                                    45
+                                    <span>minutes</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <span>
+                                        Record max of time
+                                    </span>
+                                </th>
+                                <td id="record-less-time">
+                                    96
+                                    <span>minutes</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="p-2 score-history">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" colspan="2">Score history</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" id="date-1">
+                                    20/02/2022
+                                </th>
+                                <td id="date-1-score">
+                                    250
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" id="date-2">
+                                    21/02/2022
+                                </th>
+                                <td id="date-2-score">
+                                    250
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" id="date-3">
+                                    22/02/2022
+                                </th>
+                                <td id="date-3-score">
+                                    250
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" id="date-4">
+                                    23/02/2022
+                                </th>
+                                <td id="date-4-score">
+                                    250
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" id="date-5">
+                                    24/02/2022
+                                </th>
+                                <td id="date-5-score">
+                                    250
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" id="date-6">
+                                    25/02/2022
+                                </th>
+                                <td id="date-6-score">
+                                    250
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" id="date-7">
+                                    24/02/2022
+                                </th>
+                                <td id="date-7-score">
+                                    250
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" id="date-8">
+                                    25/02/2022
+                                </th>
+                                <td id="date-8-score">
+                                    250
+                                    <span>points</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex justify-content-center">
+                <button class="position-relative rounded-3" id="play-game">
+                    Play
+                </button>
+        </div>
+    </main>
+
+    <div class="container footer-div">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2">Doors of drums</a></li>
+                <li class="nav-item"><a href="our-team.html" class="nav-link px-2">Our team</a></li>
+                <li class="nav-item"><a href="stadistics-global.html" class="nav-link px-2">Our players</a></li>
+                <li class="nav-item"><a href="about-game.html" class="nav-link px-2">About the game</a>
+                </li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

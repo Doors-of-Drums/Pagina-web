@@ -1,0 +1,63 @@
+#background-video {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  margin-top: 15px;
+  opacity: 0.8;
+  width: 100%;
+  filter: grayscale(90%);
+}
+
+#background-image {
+  display: none;
+}
+
+main {
+  margin: 0 25px 10px 25px;
+}
+
+main h2 {
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+  /* Trailer y título */
+  #background-video {
+    display: none;
+  }
+  #background-image {
+    display: inline;
+    width: 100%;
+    filter: grayscale(90%);
+  }
+}
+
+/* -------------------------- */
+
+section#Flexibox {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 150px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section#Flexibox div#Texto2 button.Botones {
+  background-color: #dc6543;
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  width: 180px;
+  height: 60px;
+  margin: 55px 10px;
+  border-style: none;
+}
+
+@media (max-width: 767px) {
+    #Flexibox {
+        flex-direction: column;
+    }
+}

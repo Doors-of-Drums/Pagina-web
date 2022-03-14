@@ -1,0 +1,101 @@
+:root {
+  /* Paleta de colores */
+  --primary: #dc6543;
+  --secondary: #0b0706;
+  --hightlight: #4bc3e0;
+  --gray-primary: #8d8d8d;
+}
+
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--primary);
+  font-size: 18px;
+}
+
+.bg-dark {
+  background-color: var(--secondary) !important;
+  opacity: 0.9;
+}
+
+.border-naranja {
+  border: 1px solid var(--primary);
+  border-radius: 0.5rem;
+}
+
+#user-icon {
+  margin-left: 8px;
+  background-color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 18px 115px;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+main p {
+  font-size: 22px;
+}
+
+/* Footer */
+.my-4 {
+  margin-top: 1px !important;
+  margin-bottom: 0px !important;
+}
+
+.footer-div {
+  background-color: var(--secondary);
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+}
+
+.footer-div .nav-item a {
+  color: var(--primary);
+}
+
+.py-3 {
+  padding: 3px 0 !important;
+}
+
+.pb-3 {
+  padding-bottom: 3px !important;
+}
+
+@media (max-width: 991px) {
+  .border-naranja {
+    border: 0;
+  }
+
+  #user-icon {
+    display: none;
+  }
+
+  .d-flex {
+    display: flex !important;
+  }
+
+  .flex-row {
+    flex-direction: column !important;
+  }
+
+  /* For responsive */
+  main {
+    margin: 0 15px 10px 15px;
+  }
+}
