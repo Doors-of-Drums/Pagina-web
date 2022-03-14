@@ -1,0 +1,37 @@
+h1 {
+    font-size: 50px;
+}
+
+#user-icon-info {
+    width: 100px;
+}
+
+.user-info button, #play-game {
+    background-color: #dc6543;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    width:160px;
+    height: 60px;
+    margin: auto 10px;
+    border-style: none;
+}
+
+.player-per-data {
+margin: 25px auto;
+}
+
+table, table span {
+    font-size: 20px;
+}
+
+a, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#play-game {
+    width:260px;
+    height: 120px;
+    font-size: 38px;
+}
