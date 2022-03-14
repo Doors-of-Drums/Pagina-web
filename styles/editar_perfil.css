@@ -1,0 +1,46 @@
+.flex-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.containerBox{
+    text-align: center;
+    margin-top: 0vh;
+    margin-left: 25%;
+}
+
+section.sec_medias a button{
+    background-color: #dc6543;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    width:180px;
+    height: 60px;
+    margin: 55px 10px;
+    border-style: none;
+}
+section.sec_medidas h1#Titulo{
+    margin: 150px auto;
+}
+section.sec_medias{
+    margin:0;
+    padding: 0;
+}
+section#Botones a button#Botton_Guardar_cambios{
+    height: 65px;
+    background-color: #dc6543;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+    width:180px;
+    height: 60px;
+    margin: 55px 0px 10px 10px;
+    border-style: none;
+}
+
+section#Titulo_Editar h1#Titulo{
+    margin: 15px auto;
+}
