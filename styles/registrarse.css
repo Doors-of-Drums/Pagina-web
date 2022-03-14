@@ -1,6 +1,7 @@
 .flex-container{
     display: flex;
-    text-align: center;
+        text-align: center;
+    justify-content: space-around;
 }
 .textoinput{
     text-align: center;
@@ -10,7 +11,4 @@
     text-align: center;
     margin-top: 0vh;
     margin-left: 25%;
-}
-.boton{
-    
 }
