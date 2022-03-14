@@ -43,12 +43,27 @@
   margin: 0;
 }
 
-.person-1 h2, .person-3 h2 {
+.person-1 h2,
+.person-3 h2 {
   text-align: right;
 }
 
-.person-2 h2, .person-4 h2 {
+.person-2 h2,
+.person-4 h2 {
   text-align: left;
+}
+
+img.p-2 {
+  width: 20%;
+}
+
+@media (max-width: 991px) {
+  img.p-2 {
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -82,5 +97,12 @@
 
   .nosotros-persons {
     margin: 18px 18px;
+  }
+
+  .person-1 h2,
+  .person-2 h2,
+  .person-3 h2,
+  .person-4 h2 {
+    text-align: center;
   }
 }
