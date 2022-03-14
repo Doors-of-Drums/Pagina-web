@@ -1,6 +1,5 @@
 video{
-    height: 250px;
-    width: 250px;
+    height: 500px;
 }
 section#cajageneralvideo section#cajaespecificavideo{
     width: 90%;
@@ -14,6 +13,7 @@ section#Flexibox{
     column-gap: 150px;
     width: 90%;
     margin: 0 auto;
+    padding: 50px 0;
 }
 
 
