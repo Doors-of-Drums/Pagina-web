@@ -64,29 +64,6 @@ main .pas-img {
   width: 200px;
 }
 
-/* ¿Cómo se juega? */
-.como-jugar h1 {
-  margin: 20px 0;
-  font-size: 70px;
-}
-
-div.control-1,
-div.control-3 {
-  margin-left: 35px;
-}
-
-div.control-2 {
-  margin-right: 35px;
-}
-
-.como-jugar .d-flex {
-  margin-bottom: 30px;
-}
-
-.como-jugar h2 {
-  text-align: left;
-}
-
 /* Media's queries */
 
 @media (max-width: 767px) {
@@ -111,10 +88,6 @@ div.control-2 {
   /* Main index*/
   main .pas-img {
     width: 175px;
-  }
-
-  .objectives {
-    column-count: 1;
   }
 
   .d-flex {

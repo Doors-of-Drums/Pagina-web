@@ -1,0 +1,67 @@
+:root {
+  --primary: #dc6543;
+  --secondary: #0b0706;
+  --hightlight: #4bc3e0;
+  --gray-primary: #8d8d8d;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 70px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.d-flex {
+  margin-bottom: 30px;
+}
+
+.p-2 h2 {
+  text-align: left;
+}
+
+.d-flex div.p-2 {
+  margin: 0 15px !important;
+}
+
+.control-2 h2 {
+  text-align: right;
+  margin-right: 15px;
+}
+
+main img {
+  width: 35%;
+  object-fit: cover;
+}
+
+#return-game-page {
+  background-color: var(--primary);
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  width: 180px;
+  height: 60px;
+  margin: 55px 10px;
+  border-style: none;
+}
+
+@media (max-width: 767px) {
+  .d-flex {
+    display: flex !important;
+  }
+
+  .flex-row,
+  .flex-row-reverse {
+    flex-direction: column !important;
+  }
+
+  main {
+    text-align: center;
+    margin: 0 15px 10px 15px;
+  }
+
+  .d-flex img.control {
+    width: 300px;
+    text-align: center;
+  }
+}
