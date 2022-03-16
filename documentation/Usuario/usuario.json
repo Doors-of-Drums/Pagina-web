@@ -9,7 +9,8 @@
     "apellido_ma": "López",
     "apellido_pa": "Pérez",
     "genero": "mujer",
-    "telefono": "5552518625"
-    "Foto": "imagen1.jpg"
+    "telefono": "5552518625",
+    "Foto": "imagen1.jpg",
+    "Status": "logged"
   }
 }
