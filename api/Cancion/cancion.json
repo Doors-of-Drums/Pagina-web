@@ -1,0 +1,10 @@
+{
+  "cancion": {
+    "id_canciones": 1,
+    "nombre": "Martinillo",
+    "duracion": "3:42",
+    "genero": "pop",
+    "ritmo": "alto",
+    "dificultad": "alta"
+  }
+}
