@@ -1,6 +1,6 @@
 {
   "cancion": {
-    "id_canciones": 1,
+    "id_cancion": 1,
     "nombre": "Martinillo",
     "duracion": "3:42",
     "genero": "pop",
