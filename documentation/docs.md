@@ -1,59 +1,111 @@
-API para control de vacunas
-Descripción: 
-    Esta API permite la conexión entre el videojuego 'Doors of drums' y el sistema web mediante métodos GET, 
-    gracias a esta se podrá conocer [datos] aparter de su username (?). 
+# Introduction
+Welcome to the Door-of-drums API. You can use our API to access Door-of-drums API endpoints, which can get information on the songs that are used in the game, the user info and the records of the user.
 
-Parámetros y respuestas esperadas:
+# Authentication
+Door-of-drums uses API keys to allow access to the API. For this you have to be register on the [game page](https://doors-of-drums.github.io/Pagina-web/).
 
-ENDPOINT:
-https://doors-of-drums.github.io/Pagina-web/[archivos json]
+Door-of-drums expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
-Verbo: GET
-Parámetro de entrada esperado: username (?)
+`Authorization: key`
 
-Salida: JSON con los datos de la persona:
-    [datos]
+You must replace <code>key</code> with your personal API key.
 
-    CURP (CURP de la persona buscada)
-    VACUNAS (lista de las vacunas que se tienen registradas para esa persona, 
-    los detalles que incluye cada vacuna son: fecha_de_aplicacion, 
-    nombre_vacuna)
+# User
+## Get user info
 
-Ejemplo: https://doors-of-drums.github.io/Pagina-web/[archivos json]
-Devolvería el JSON:
-    {
-        "curp": "GOGL901201HDFNMS04",
-        "vacunas": [
-            {
-                "fecha_aplicacion": "14/01/2022 13:34",
-                "nombre_vacuna": "Pfizer"
-            },
-            {
-                "fecha_aplicacion": "14/02/2022 17:34",
-                "nombre_vacuna": "Pfizer refuerzo"
-            }
-        ]
-    }
+This endpoint retrieves all the info from a specific user.
 
+### HTTP Request
 
-ENDPOINT:
-Ver datos de la partida (?)
-https://doors-of-drums.github.io/Pagina-web/[archivos json]
+`GET https://doors-of-drums.github.io/Pagina-web/documentation/Usuario/<id_user>.json`
 
-Verbo: GET
-Parámetro de entrada esperado: username (?)
+### Query Parameters
 
-Salida: JSON con las estadísticas personales del jugador:
-    [datos]
-    
-    CURP (CURP de la persona)
-    fecha_de_aplicacion (La fecha de aplicación recibida)
-    nombre_vacuna (El nombre de la vacuna recibida)
+Parameter | Description
+--------- | -----------
+id_user | The ID of the user to retrieve
 
-Ejemplo: https://doors-of-drums.github.io/Pagina-web/[archivos json]
-Devolvería el JSON:
-    {
-        "curp": "GOGL901201HDFNMS04",
-        "fecha_aplicacion": "14/01/2022 13:34",
-        "nombre_vacuna": "Pfizer"
-    }
+### Result of this query
+
+```
+{
+  "usuario": {
+    "id_usuario": 1,
+    "nombre_usuario": "mastergamer",
+    "pais": "México",
+    "fecha_nacimiento": "2000-08-09T05:00:00.000Z",
+    "contrasenia": "fastpass",
+    "correo": "usuario1@gmail.com",
+    "apellido_ma": "López",
+    "apellido_pa": "Pérez",
+    "genero": "mujer",
+    "telefono": "5552518625",
+    "Foto": "imagen1.jpg",
+    "status" : "active"
+  }
+}
+```
+
+# Records
+
+## Get all records
+
+This endpoint retrieves all records from a specific user.
+**check this**
+<!-- Checar esto -->
+
+### HTTP Request
+
+`GET https://doors-of-drums.github.io/Pagina-web/documentation/Historial/historial.json`
+
+<!-- ### Query Parameters
+
+Parameter | Description
+--------- | -----------
+id_user | The ID of the user to retrieve -->
+
+### Result of this query
+
+```
+{
+  "historial": {
+    "id_historial": 1,
+    "id_usuario": 1,
+    "puntos_por_partida": 10,
+    "fecha_del_juego": "2022-03-16T00:36:10.194Z",
+    "id_cancion": 1,
+    "tiempo_jugado": 40
+  }
+}
+```
+
+# Song
+
+## Get song info
+
+This endpoint retrieves all the info from a specific song.
+
+### HTTP Request
+
+`GET https://doors-of-drums.github.io/Pagina-web/documentation/Cancion/<id_song>.json`
+
+### Query Parameters
+
+Parameter | Description
+--------- | -----------
+id_song | The ID of the song to retrieve
+
+### Result of this query
+
+```
+{
+  "cancion": {
+    "id_cancion": 1,
+    "nombre": "Martinillo",
+    "duracion": "3:42",
+    "genero": "pop",
+    "ritmo": "alto",
+    "dificultad": "alta"
+  }
+}
+```
