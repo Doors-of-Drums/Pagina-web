@@ -50,9 +50,7 @@ id_user | The ID of the user to retrieve
 
 ## Get all records
 
-This endpoint retrieves all records from a specific user.
-**check this**
-<!-- Checar esto -->
+This endpoint retrieves the records from an user.
 
 ### HTTP Request
 
