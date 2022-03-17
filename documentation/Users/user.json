@@ -1,0 +1,41 @@
+{
+  "1": {
+    "nombre_usuario": "mastergamer",
+    "pais": "México",
+    "fecha_nacimiento": "2000-08-09T05:00:00.000Z",
+    "contrasenia": "fastpass",
+    "correo": "usuario1@gmail.com",
+    "apellido_ma": "López",
+    "apellido_pa": "Pérez",
+    "genero": "mujer",
+    "telefono": "5552518625",
+    "Foto": "imagen1.jpg",
+    "status" : "active"
+  },
+  "2": {
+    "nombre_usuario": "justNeto",
+    "pais": "México",
+    "fecha_nacimiento": "2000-08-09T05:00:00.000Z",
+    "contrasenia": "fastpass",
+    "correo": "usuario1@gmail.com",
+    "apellido_ma": "López",
+    "apellido_pa": "Pérez",
+    "genero": "hombre",
+    "telefono": "5552518625",
+    "Foto": "imagen2.jpg",
+    "status" : "active"
+  },
+  "3": {
+    "nombre_usuario": "sofi:)",
+    "pais": "México",
+    "fecha_nacimiento": "2000-08-09T05:00:00.000Z",
+    "contrasenia": "fastpass",
+    "correo": "usuario1@gmail.com",
+    "apellido_ma": "López",
+    "apellido_pa": "Pérez",
+    "genero": "mujer",
+    "telefono": "5552518625",
+    "Foto": "imagen1.jpg",
+    "status" : "active"
+  }
+}
