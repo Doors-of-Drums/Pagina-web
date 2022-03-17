@@ -39,12 +39,22 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link border-naranja" href="log-in.html">
-                                Log in
+                        <li class="nav-item dropdown">
+                            <a class="nav-link border-naranja dropdown-toggle" style="display: inline;" href="#"
+                                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                User options
+                            </a>
+                            <span style="display: inline;">
                                 <img src="src/img/icons/user_icon.svg" alt="icon of a person" height="30px"
                                     class="rounded-circle" id="user-icon">
-                            </a>
+                            </span>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="log-in.html">Log in</a></li>
+                                <li><a class="dropdown-item" href="sign-in.html">Sign in</a></li>
+                                <li><a class="dropdown-item" href="stadistics-personal.html">Personal statistics</a></li>
+                                <li><a class="dropdown-item" href="edit-profile.html">Edit profile</a></li>
+                                <li><a class="dropdown-item" href="#">Sign out</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>

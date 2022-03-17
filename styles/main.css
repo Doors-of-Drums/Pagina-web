@@ -11,8 +11,12 @@ body {
 }
 
 /* Navbar */
-.navbar-dark .navbar-nav .nav-link {
-  color: var(--primary);
+nav {
+  z-index: 5;
+}
+
+.navbar-nav .nav-link {
+  color: var(--primary) !important;
   font-size: 18px;
 }
 
@@ -33,6 +37,18 @@ body {
 
 a:hover {
   text-decoration: underline;
+}
+
+.dropdown-menu {
+    background-color: var(--secondary) !important;
+    border: 1px solid var(--primary) !important;
+}
+
+.dropdown-item {
+    color: var(--primary) !important;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
 }
 
 main {
