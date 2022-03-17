@@ -1,0 +1,108 @@
+<h1 id="door-of-drums-api">Door-of-drums API</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Welcome to the Door-of-drums API. You can use our API to access Door-of-drums API endpoints, which can get
+    information on the songs that are used in the game, the user info and the records of the users.</p>
+<h2 id="authentication">Authentication</h2>
+<p>Door-of-drums uses API keys to allow access to the API. For this you have to be register on the <a
+        href="https://doors-of-drums.github.io/Pagina-web/">game page</a>.</p>
+<p>Door-of-drums expects for the API key to be included in all API requests to the server in a header that looks like
+    the following:</p>
+<p><code>Authorization: key</code></p>
+<p>You must replace <code>key</code> with your personal API key.</p>
+<h2 id="user">User</h2>
+<h3 id="get-user-info">Get user info</h3>
+<p>This endpoint retrieves all the info from all users.</p>
+<h4 id="http-request">HTTP Request</h4>
+<p><code>GET https://doors-of-drums.github.io/Pagina-web/documentation/Usuario/user.json</code></p>
+<h4 id="result-of-this-query">Result of this query</h4>
+<pre><code class="lang-json">{
+  <span class="hljs-attr">"1"</span>: {
+    <span class="hljs-attr">"nombre_usuario"</span>: <span class="hljs-string">"mastergamer"</span>,
+    <span class="hljs-attr">"pais"</span>: <span class="hljs-string">"México"</span>,
+    <span class="hljs-attr">"fecha_nacimiento"</span>: <span class="hljs-string">"2000-08-09T05:00:00.000Z"</span>,
+    <span class="hljs-attr">"contrasenia"</span>: <span class="hljs-string">"fastpass"</span>,
+    <span class="hljs-attr">"correo"</span>: <span class="hljs-string">"usuario1@gmail.com"</span>,
+    <span class="hljs-attr">"apellido_ma"</span>: <span class="hljs-string">"López"</span>,
+    <span class="hljs-attr">"apellido_pa"</span>: <span class="hljs-string">"Pérez"</span>,
+    <span class="hljs-attr">"genero"</span>: <span class="hljs-string">"mujer"</span>,
+    <span class="hljs-attr">"telefono"</span>: <span class="hljs-string">"5552518625"</span>,
+    <span class="hljs-attr">"Foto"</span>: <span class="hljs-string">"imagen1.jpg"</span>,
+    <span class="hljs-attr">"status"</span> : <span class="hljs-string">"active"</span>
+  },
+  <span class="hljs-attr">"2"</span>: {
+    <span class="hljs-attr">"nombre_usuario"</span>: <span class="hljs-string">"justNeto"</span>,
+    <span class="hljs-attr">"pais"</span>: <span class="hljs-string">"México"</span>,
+    <span class="hljs-attr">"fecha_nacimiento"</span>: <span class="hljs-string">"2000-08-09T05:00:00.000Z"</span>,
+    <span class="hljs-attr">"contrasenia"</span>: <span class="hljs-string">"fastpass"</span>,
+    <span class="hljs-attr">"correo"</span>: <span class="hljs-string">"usuario1@gmail.com"</span>,
+    <span class="hljs-attr">"apellido_ma"</span>: <span class="hljs-string">"López"</span>,
+    <span class="hljs-attr">"apellido_pa"</span>: <span class="hljs-string">"Pérez"</span>,
+    <span class="hljs-attr">"genero"</span>: <span class="hljs-string">"hombre"</span>,
+    <span class="hljs-attr">"telefono"</span>: <span class="hljs-string">"5552518625"</span>,
+    <span class="hljs-attr">"Foto"</span>: <span class="hljs-string">"imagen2.jpg"</span>,
+    <span class="hljs-attr">"status"</span> : <span class="hljs-string">"active"</span>
+  },
+  <span class="hljs-attr">"3"</span>: {
+    <span class="hljs-attr">"nombre_usuario"</span>: <span class="hljs-string">"sofi:)"</span>,
+    <span class="hljs-attr">"pais"</span>: <span class="hljs-string">"México"</span>,
+    <span class="hljs-attr">"fecha_nacimiento"</span>: <span class="hljs-string">"2000-08-09T05:00:00.000Z"</span>,
+    <span class="hljs-attr">"contrasenia"</span>: <span class="hljs-string">"fastpass"</span>,
+    <span class="hljs-attr">"correo"</span>: <span class="hljs-string">"usuario1@gmail.com"</span>,
+    <span class="hljs-attr">"apellido_ma"</span>: <span class="hljs-string">"López"</span>,
+    <span class="hljs-attr">"apellido_pa"</span>: <span class="hljs-string">"Pérez"</span>,
+    <span class="hljs-attr">"genero"</span>: <span class="hljs-string">"mujer"</span>,
+    <span class="hljs-attr">"telefono"</span>: <span class="hljs-string">"5552518625"</span>,
+    <span class="hljs-attr">"Foto"</span>: <span class="hljs-string">"imagen1.jpg"</span>,
+    <span class="hljs-attr">"status"</span> : <span class="hljs-string">"active"</span>
+  }
+}
+</code></pre>
+<h2 id="records">Records</h2>
+<h3 id="get-all-records">Get all records</h3>
+<p>This endpoint retrieves the records from all users.</p>
+<h4 id="http-request">HTTP Request</h4>
+<p><code>GET https://doors-of-drums.github.io/Pagina-web/documentation/Historial/historial.json</code></p>
+<h4 id="result-of-this-query">Result of this query</h4>
+<pre><code class="lang-json">{
+  <span class="hljs-attr">"historial"</span>: {
+    <span class="hljs-attr">"id_historial"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"id_usuario"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"puntos_por_partida"</span>: <span class="hljs-number">10</span>,
+    <span class="hljs-attr">"fecha_del_juego"</span>: <span class="hljs-string">"2022-03-16T00:36:10.194Z"</span>,
+    <span class="hljs-attr">"id_cancion"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"tiempo_jugado"</span>: <span class="hljs-number">40</span>
+  }
+}
+</code></pre>
+<h2 id="song">Song</h2>
+<h3 id="get-song-info">Get song info</h3>
+<p>This endpoint retrieves the informations of all the songs of the game.</p>
+<h4 id="http-request">HTTP Request</h4>
+<p><code>GET https://doors-of-drums.github.io/Pagina-web/documentation/Cancion/cancion.json</code></p>
+<h4 id="result-of-this-query">Result of this query</h4>
+<pre><code class="lang-json">{
+  <span class="hljs-attr">"1"</span>: {
+    <span class="hljs-attr">"nombre"</span>: <span class="hljs-string">"Martinillo"</span>,
+    <span class="hljs-attr">"duracion"</span>: <span class="hljs-string">"3:42"</span>,
+    <span class="hljs-attr">"genero"</span>: <span class="hljs-string">"pop"</span>,
+    <span class="hljs-attr">"ritmo"</span>: <span class="hljs-string">"alto"</span>,
+    <span class="hljs-attr">"dificultad"</span>: <span class="hljs-string">"alta"</span>
+  },
+
+  <span class="hljs-attr">"2"</span>: {
+    <span class="hljs-attr">"nombre"</span>: <span class="hljs-string">"Pin Pon es un muñeco"</span>,
+    <span class="hljs-attr">"duracion"</span>: <span class="hljs-string">"2:04"</span>,
+    <span class="hljs-attr">"genero"</span>: <span class="hljs-string">"infantil"</span>,
+    <span class="hljs-attr">"ritmo"</span>: <span class="hljs-string">"bajo"</span>,
+    <span class="hljs-attr">"dificultad"</span>: <span class="hljs-string">"baja"</span>
+  }, 
+
+  <span class="hljs-attr">"3"</span>: {
+    <span class="hljs-attr">"nombre"</span>: <span class="hljs-string">"Las ruedas del autobús"</span>,
+    <span class="hljs-attr">"duracion"</span>: <span class="hljs-string">"2:14"</span>,
+    <span class="hljs-attr">"genero"</span>: <span class="hljs-string">"infantil"</span>,
+    <span class="hljs-attr">"ritmo"</span>: <span class="hljs-string">"medio"</span>,
+    <span class="hljs-attr">"dificultad"</span>: <span class="hljs-string">"media"</span>
+  }
+}
+</code></pre>
