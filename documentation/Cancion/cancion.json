@@ -1,0 +1,26 @@
+{
+  "1": {
+    "nombre": "Martinillo",
+    "duracion": "3:42",
+    "genero": "pop",
+    "ritmo": "alto",
+    "dificultad": "alta"
+  },
+
+  "2": {
+    "nombre": "Pin Pon es un muñeco",
+    "duracion": "2:04",
+    "genero": "infantil",
+    "ritmo": "bajo",
+    "dificultad": "baja"
+  }, 
+
+  "3": {
+    "nombre": "Las ruedas del autobús",
+    "duracion": "2:14",
+    "genero": "infantil",
+    "ritmo": "medio",
+    "dificultad": "media"
+  }
+}
+
