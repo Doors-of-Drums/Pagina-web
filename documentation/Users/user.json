@@ -29,6 +29,7 @@
       "status" : "active"
     },
     {
+      "user_id" : "3",
       "nombre_usuario": "sofi:)",
       "pais": "México",
       "fecha_nacimiento": "2000-08-09T05:00:00.000Z",
@@ -36,9 +37,9 @@
       "correo": "usuario1@gmail.com",
       "apellido_ma": "López",
       "apellido_pa": "Pérez",
-      "genero": "mujer",
+      "genero": "hombre",
       "telefono": "5552518625",
-      "Foto": "imagen1.jpg",
+      "Foto": "imagen2.jpg",
       "status" : "active"
     }
   ]
