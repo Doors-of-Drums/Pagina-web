@@ -8,7 +8,7 @@
         "ritmo": "alto",
         "dificultad": "alta"
       },
-
+      {
         "cancion_id" : "2",
         "nombre": "Pin Pon es un muñeco",
         "duracion": "2:04",
@@ -16,7 +16,7 @@
         "ritmo": "bajo",
         "dificultad": "baja"
       }, 
-
+      {
         "cancion_id" : "3",
         "nombre": "Las ruedas del autobús",
         "duracion": "2:14",
