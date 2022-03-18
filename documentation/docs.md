@@ -4,16 +4,6 @@
 
 Welcome to the Door-of-drums API. You can use our API to access Door-of-drums API endpoints, which can get information on the songs that are used in the game, the user info and the records of the users.
 
-## Authentication
-
-Door-of-drums uses API keys to allow access to the API. For this you have to be register on the [game page](https://doors-of-drums.github.io/Pagina-web/).
-
-Door-of-drums expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: key`
-
-You must replace `key` with your personal API key.
-
 ## User
 
 ### Get user info
